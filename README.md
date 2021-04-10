@@ -57,3 +57,5 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade)
 
 [![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405)
+
+[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml)
