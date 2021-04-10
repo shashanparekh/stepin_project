@@ -25,6 +25,18 @@
   * Doxygen Extension
   * C/C++ Debugger Configuration
 
+# Run Project
+* uncomment line no. 48 and comment the line no. 49 in implementation/SRC/compute.c
+* Username:pass
+* password:pass
+* For Windows
+  1. Remove ".out" at line no. 4 from implementation/Makefile
+  2. Run make in cmd
+  3. Run make run in cmd
+* For Linux
+  1. Run make in terminal
+  2. Run make runL in terminal
+
 # Installation
 * Fork the project
 * Meet the Requirements
@@ -33,7 +45,7 @@
 # Usage
 1. Run program
 2. Follow Instruction display on Screen
-3. Log using required credentials
+3. Log using Given credentials
 4. Choose the feature given on list
 
 # Credit
