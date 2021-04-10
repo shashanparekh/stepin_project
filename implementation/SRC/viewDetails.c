@@ -5,7 +5,7 @@
 
 void viewdetails(void)
 {
-	system("cls");
+	printf("\e[1;1H\e[2J");
 	printf("-----------------------------------------------------------------------------");	
 	printf("\nTr.No\tName\t\t\tDestinations\t\tCharges\t\tTime\n");
 	printf("-----------------------------------------------------------------------------");
@@ -19,4 +19,5 @@ void viewdetails(void)
     printf("\n1008\tKeystone Express\tWashington To Boston\tRs.3500\t\t4pm");
     printf("\n1009\tMeteor Express\t\tBoston To Miami\t\tRs.6000\t\t3.35pm");
     printf("\n1010\tMeteor Express\t\tMiami To Boston\t\tRs.6000\t\t4.15pm"); 
+    
 }

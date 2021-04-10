@@ -34,7 +34,7 @@ void cancel(void){
     printf("\nList of the Booked Tickets.\n\n");
     printFile(srcFile);
     printf("\nEnter Name of the Ticket Holder for Cancellation: ");
-    scanf("%s", &name);
+    scanf("%s", name);
     rewind(srcFile);
     num=deleteLine(srcFile, tempFile, name);
     fclose(srcFile);
@@ -47,7 +47,7 @@ void cancel(void){
     if(num==0){
         printf("No record found for this Name\n");
         printf("\nPress Enter to go back to  Main menu!");
-        getch();
+        getchar();
     }else{
         printf("\nTicket is Cancelled Successfully\n");
         printf("\n\n\nList after Cancellation of ticket .\n\n");
@@ -55,7 +55,8 @@ void cancel(void){
         printFile(srcFile);
         fclose(srcFile);
         printf("\nPress Enter to go back to  Main menu!");
-        getch();
+        getchar();
+        getchar();
     }    
 }
 

@@ -4,7 +4,8 @@
 #include<string.h>
 
 void compute(){
-    system("cls"); 
+	system("clear");
+		printf("\e[1;1H\e[2J");
 	printf("\t\t=================================================\n");
 	printf("\t\t|                                               |\n");
 	printf("\t\t|        -----------------------------          |\n");
@@ -21,12 +22,13 @@ void compute(){
 	    
 	printf(" \n Press any key to continue:");
 	
-	getch();	
-    system("cls");
+	getchar();	
+	printf("\e[1;1H\e[2J");
 	login();
+
 	int menu_choice,choice_return;
 	start:
-	system("cls");
+	printf("\e[1;1H\e[2J");
 	printf("\n=================================\n");
 	printf("    TRAIN RESERVATION SYSTEM");
 	printf("\n=================================");
@@ -52,7 +54,8 @@ void compute(){
 		case 2:
 			viewdetails();
 			printf("\n\nPress any key to go to Main Menu..");
-			getch();
+			getchar();
+			getchar();
 			break;
 		case 3:
 			display();

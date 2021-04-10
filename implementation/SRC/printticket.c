@@ -5,7 +5,7 @@
 
 void printticket(char name[],int num_of_seats,int train_num,float charges)
 {
-	system("cls");
+	printf("\e[1;1H\e[2J");
 	printf("-------------------\n");
 	printf("\tTICKET\n");
 	printf("-------------------\n\n");

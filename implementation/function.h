@@ -1,6 +1,11 @@
 #include<stdbool.h>
+
+
 #ifndef __FUNCTION_H__
 #define ___FUNCTION_H__
+
+
+
 
 /**
  * @brief Structure to hold a Details to Book Ticket
@@ -12,6 +17,12 @@ typedef struct{
 	int train_num;
 	int num_of_seats;
 }pd;
+
+
+
+
+/* Read 1 character with echo */
+
 
 
 /*******************************************FUNCTION PROTOTYPE**********************************************************/

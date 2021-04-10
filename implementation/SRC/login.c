@@ -11,7 +11,7 @@ void logg(){
 void login()
 {
 	int a=0,i=0;
-    char uname[10],c=' '; 
+    char uname[10],passs[10],c=' '; 
     char pword[10],code[10];
     char user[10]="pass";
     char pass[10]="pass";
@@ -20,19 +20,11 @@ void login()
 	{
 		printf("\n  =======================  LOGIN FORM  =======================\n  ");
 		printf(" \n                       ENTER USERNAME:-");
-		scanf("%s", &uname); 
+		scanf("%s", uname); 
 		printf(" \n                       ENTER PASSWORD:-");
-		while(i<10)
-		{
-			pword[i]=getch();
-			c=pword[i];
-			if(c==13) break;
-			else printf("*");
-			i++;
-		}
-		pword[i]='\0';
+		scanf("%s",passs);
 		i=0;
-		if(strcmp(uname,"pass")==0 && strcmp(pword,"pass")==0)
+		if(strcmp(uname,"pass")==0 && strcmp(passs,"pass")==0)
 		{
 		printf("  \n\n\n       WELCOME TO OUR SYSTEM !! YOUR LOGIN IS SUCCESSFUL\n");
 		check=1;
@@ -40,7 +32,9 @@ void login()
 		RUN_TEST(logg);
 		UNITY_END();
 		printf("\n\n\n\t\t\t\tPress any key to continue...");
-		getch();//holds the screen
+		getchar();//holds the screen
+		getchar();
+		printf("\e[1;1H\e[2J");
 		break;
 		}
 		else
@@ -51,14 +45,17 @@ void login()
 			UNITY_BEGIN();
 			RUN_TEST(logg);
 			UNITY_END();
-			getch();
-			system("cls");
+			printf("\n\n\n\t\t\t\tPress any key to Login again...");
+			getchar();
+			getchar();
+			printf("\e[1;1H\e[2J");
 		}
 	}while(a<=2);
 	if (a>2)
 	{
 		printf("\nSorry you have entered the wrong username and password for four times!!!");
-		getch();
+		getchar();
 	}
-	system("cls");	
+	
+	
 }

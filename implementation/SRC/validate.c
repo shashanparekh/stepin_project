@@ -27,6 +27,7 @@ void validate(){
         printf("No Record Found");
     }
     printf("\nPress Enter to go back to  Main menu!");
-    getch();
+    getchar();
+    getchar();
 }
 

@@ -11,7 +11,7 @@ void display(void){
     {
         printf("No Record Found.....\n");
         printf("\nPress Enter to go back to  Main menu!");
-        getch();
+        getchar();
     }
     printf("\nList of the Booked Tickets.\n\n");
     char ch;
@@ -19,5 +19,6 @@ void display(void){
         putchar(ch);
     fclose(fp);
     printf("\nPress Enter to go back to  Main menu!");
-    getch();
+    getchar();
+    getchar();
 }

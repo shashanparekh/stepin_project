@@ -16,15 +16,16 @@ void reservation(void)
 	pd passdetails;
 	FILE *fp;
 	fp=fopen("seats_reserved.txt","a");
-	system("cls");
+	printf("\e[1;1H\e[2J");
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	gets(passdetails.name);
+	scanf("%s",passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\n\n>>Press Enter To View Available Trains<< ");
-	getch();
-	system("cls");
+	getchar();
+	getchar();
+	printf("\e[1;1H\e[2J");
 	viewdetails();
 	printf("\n\nEnter train number:> ");
 	start1:
@@ -48,11 +49,12 @@ void reservation(void)
     UNITY_END();
 	if(confirm == 'y')
 	{
-		fprintf(fp,"%s\t\t%d\t\t%d\t\t%.2f\n",&passdetails.name,passdetails.num_of_seats,passdetails.train_num,charges);
+		fprintf(fp,"%s\t\t%d\t\t%d\t\t%.2f\n",passdetails.name,passdetails.num_of_seats,passdetails.train_num,charges);
 		printf("==================");
 		printf("\n Reservation Done\n");
 		printf("==================");
 		printf("\nPress any key to go back to Main menu");
+		getchar();
 	}
 	else
 	{
@@ -66,5 +68,5 @@ void reservation(void)
 		}
 	}
 	fclose(fp);
-	getch();
+	getchar();
 }
