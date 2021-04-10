@@ -45,7 +45,8 @@ void compute(){
 	printf("\n6>> Exit");
 	printf("\n------------------------");
 	printf("\n\n-->");
-	scanf("%d",&menu_choice);
+	//scanf("%d",&menu_choice);
+	menu_choice=6;
 	switch(menu_choice)
 	{
 		case 1:

@@ -11,3 +11,6 @@ runL:$(PROJECT_NAME)
 	
 clean:
 	del /q *.exe
+	
+cleanL:
+	rm *.out

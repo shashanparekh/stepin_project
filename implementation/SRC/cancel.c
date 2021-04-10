@@ -48,6 +48,7 @@ void cancel(void){
         printf("No record found for this Name\n");
         printf("\nPress Enter to go back to  Main menu!");
         getchar();
+		getchar();
     }else{
         printf("\nTicket is Cancelled Successfully\n");
         printf("\n\n\nList after Cancellation of ticket .\n\n");

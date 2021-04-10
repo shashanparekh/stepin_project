@@ -60,6 +60,7 @@ void reservation(void)
 	{
 		if(confirm=='n'){
 			printf("\nReservation Not Done!\nPress any key to go back to  Main menu!");
+			getchar();
 		}
 		else
 		{
