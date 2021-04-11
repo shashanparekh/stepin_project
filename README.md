@@ -12,7 +12,7 @@
 * Pointer
 * User Defined Header File
 * Unity Test Framework
-* Compatibility with Windows
+* Compatibility with Windows and Linux
 * File
 
 # Requirements
