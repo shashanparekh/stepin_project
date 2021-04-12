@@ -10,7 +10,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | To be added |[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405)
+[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | [![Unit Testing - Unity](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml) |[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405)
 
 
 ## Folder Structure
