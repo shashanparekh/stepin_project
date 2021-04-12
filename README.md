@@ -8,9 +8,9 @@
 * User can login to system to check the Train details and booked tickets
 * User can also verify that his/her ticket is booked or not.
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | [![Unit Testing - Unity](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml) |[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405)
+Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage |
+------|----------|-------|--------------|-----------------
+[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | [![Unit Testing - Unity](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml) |[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405) |  [![Code Coverage](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml) |
 
 
 ## Folder Structure
@@ -20,6 +20,7 @@ Folder             | Description
 `2_Implementation` | All code and documentation
 `3_Requirements`   | Documents detailing requirements and research
 `4_Test_plan`      | Documents with test plans and procedures
+`5_Report`         | Contains Version of Project and Release Date
 
 # Functions used
 * Structures
@@ -38,18 +39,15 @@ Folder             | Description
   * Extension C/C++ 
   * Doxygen Extension
   * C/C++ Debugger Configuration
+* Code Coverage
 
 # Run Project
 * uncomment line no. 48 and comment the line no. 49 in implementation/SRC/compute.c
 * Username:pass
 * password:pass
-* For Windows
-  1. Remove ".out" at line no. 4 from implementation/Makefile
-  2. Run make in cmd
-  3. Run make run in cmd
-* For Linux
-  1. Run make in terminal
-  2. Run make runL in terminal
+* In cmd/terminal at project implementation location
+  1. Run make
+  2. Run make run
 
 # Installation
 * Fork the project
@@ -66,5 +64,5 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`264827` | Shashan Parekh  | Feature A, B etc    | Y yes     | Y yes   |X No   |X No     
+`264827` | Shashan Parekh  | Feature A, B etc    | Y yes     | Y yes   |Y No   |Y No     
 
