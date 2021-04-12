@@ -7,6 +7,19 @@
 * User can login to system to check the Train details and booked tickets
 * User can also verify that his/her ticket is booked or not.
 
+Build | Code Quality | Unity | [Git Inspector](using github.io option)
+------|----------|-------|--------------
+[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | To be added |[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405)
+
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Design`         | Documents specifying design details
+`2_Implementation` | All code and documentation
+`3_Requirements`   | Documents detailing requirements and research
+`4_Test_plan`      | Documents with test plans and procedures
+
 # Functions used
 * Structures
 * Pointer
@@ -49,7 +62,10 @@
 4. Choose the feature given on list
 
 # Credit
-# Shashan Kaushik Parekh
+
+SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+-------|---------|----------------|----------------|---------------|-------------|--------------
+`264827` | Shashan Parekh  | Feature A, B etc    | Y yes     | Y yes   |X No   |X No     
 
 
 # Badges
