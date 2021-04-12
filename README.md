@@ -46,8 +46,8 @@ Folder             | Description
 * Username:pass
 * password:pass
 * In cmd/terminal at project implementation location
-  1. Run make
-  2. Run make run
+  1. Run "make"
+  2. Run "make run"
 
 # Installation
 * Fork the project
@@ -64,5 +64,5 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`264827` | Shashan Parekh  | Feature A, B etc    | Y yes     | Y yes   |Y No   |Y No     
+`264827` | Shashan Parekh  | Feature A, B etc    | Y yes     | Y yes   |Y yes   |Y yes     
 
