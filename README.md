@@ -1,5 +1,6 @@
 # stepin_project_264827
 
+# SDLC Activity Based Learning
 # Project Name: Train Management and Booking System
 
 # Description
@@ -67,11 +68,3 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `264827` | Shashan Parekh  | Feature A, B etc    | Y yes     | Y yes   |X No   |X No     
 
-
-# Badges
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade)
-
-[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405)
-
-[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml)
