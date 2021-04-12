@@ -13,6 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make runL
-      run: make runL -C implementation/
+    - name: make run
+      run: make run -C implementation/
  
