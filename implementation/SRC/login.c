@@ -11,6 +11,7 @@ void logg(){
 void login()
 {
 	int a=0,i=0;
+	FILE *in=fopen("input.txt","r");
     char uname[10],passs[10],c=' '; 
     char pword[10],code[10];
     char user[10]="pass";
@@ -20,7 +21,7 @@ void login()
 	{
 		printf("\n  =======================  LOGIN FORM  =======================\n  ");
 		printf(" \n                       ENTER USERNAME:-");
-		scanf("%s", uname); 
+		scanf("%s", uname);
 		printf(" \n                       ENTER PASSWORD:-");
 		scanf("%s",passs);
 		i=0;
@@ -55,6 +56,7 @@ void login()
 	{
 		printf("\nSorry you have entered the wrong username and password for four times!!!");
 		getchar();
+		exit(0);
 	}
 	
 	

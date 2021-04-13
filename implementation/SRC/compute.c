@@ -4,8 +4,7 @@
 #include<string.h>
 
 void compute(){
-	system("clear");
-		printf("\e[1;1H\e[2J");
+	system("cls || clear");
 	printf("\t\t=================================================\n");
 	printf("\t\t|                                               |\n");
 	printf("\t\t|        -----------------------------          |\n");
