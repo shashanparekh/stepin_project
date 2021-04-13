@@ -9,7 +9,7 @@
 * User can also verify that his/her ticket is booked or not.
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage |
-------|----------|-------|--------------|-----------------
+-----------------|-----------------|-----------------|-----------------|-----------------
 [![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecd689a6295b43e3a19abeb8a1eb7359)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | [![Unit Testing - Unity](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml) |[![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405) |  [![Code Coverage](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml) |
 
 
@@ -42,12 +42,19 @@ Folder             | Description
 * Code Coverage
 
 # Run Project
-* uncomment line no. 48 and comment the line no. 49 in implementation/SRC/compute.c
 * Username:pass
 * password:pass
 * In cmd/terminal at project implementation location
-  1. Run "make"
-  2. Run "make run"
+	* To Run Project
+		1. Run "make"
+		2. Run "make run"
+	* To Test Unit Testing(Ticket is booked or not)
+		1. Run "make test"
+	* To Check the code coverage
+		1. Run "make coverage"
+	* To delete all the executable files
+		1. Run "make clean"
+
 
 # Installation
 * Fork the project
