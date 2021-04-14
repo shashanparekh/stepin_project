@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C implementation/
-        valgrind ./implementation/Test/.out
+        valgrind ./implementation/Test/TEST_Train_Ticket_Booking_System.out
