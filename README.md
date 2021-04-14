@@ -10,8 +10,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option) |
 -----------------|-----------------|-----------------|-----------------|
-[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a1be445a6525487dad81df49aedd6d91)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | [![Unit Testing - Unity](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml) |[![Contribution Check - Git Inspector](https://github.com/shashanparekh/stepin_project/actions/workflows/Git_Inspector.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Git_Inspector.yml)
- |
+[![C/C++ CI](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/c-cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a1be445a6525487dad81df49aedd6d91)](https://www.codacy.com/gh/shashanparekh/stepin_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shashanparekh/stepin_project&amp;utm_campaign=Badge_Grade) | [![Unit Testing - Unity](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Unit-Testing.yml) |[![Contribution Check - Git Inspector](https://github.com/shashanparekh/stepin_project/actions/workflows/Git_Inspector.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/Git_Inspector.yml)|
  
  
  
