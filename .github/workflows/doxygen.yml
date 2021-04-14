@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make doc
-      run: make doc -C /implementation/documentation/
+      run: make doc -C /implementation/documentation/doxygen
 
