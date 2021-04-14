@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        make test -C implementation/
-        valgrind ./implementation/Test/TEST_Train_Ticket_Booking_System.out
+        make run -C implementation/
+        valgrind ./implementation/Ticket_Booking_System.out
