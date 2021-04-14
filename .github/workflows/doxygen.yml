@@ -16,4 +16,3 @@ jobs:
     - name: make doc
       run: make doc -C /implementation/documentation/
 
-      run: make distcheck
