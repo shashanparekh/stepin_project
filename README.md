@@ -14,9 +14,9 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option) |
  
  
  
- | Code Coverage | Build and Release using Zenodo |
- | -------------------------------| -------------------------------|
- |  [![Code Coverage](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml) | [![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405) |
+ | Code Coverage | Build and Release using Zenodo | CppCheck |
+ | -------------------------------| -------------------------------| -------------------------------|
+ |  [![Code Coverage](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/code-coverage.yml) | [![DOI](https://zenodo.org/badge/355883405.svg)](https://zenodo.org/badge/latestdoi/355883405) | [![cppcheck-action](https://github.com/shashanparekh/stepin_project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/shashanparekh/stepin_project/actions/workflows/cppcheck.yml) |
  
 
 
