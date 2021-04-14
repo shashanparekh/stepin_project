@@ -34,12 +34,6 @@ coverage:$(SRC)
 		gcov -a Main.c
 		$(editor) Main.c.gcov
 
-cppcheck:
-		cppcheck implementation
-		
-valgrind:
-		make run -C implementation/
-        valgrind ./implementation/Train_Ticket_Booking_System.out
 clean:
 	$(RM) *.$(EXEC)
 	$(RM) *.gcn
