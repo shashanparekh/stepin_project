@@ -47,6 +47,8 @@ Folder             | Description
   * Doxygen Extension
   * C/C++ Debugger Configuration
 * Code Coverage
+* CppCheck(Static memory analysis)
+* Valgrind(Dynamic memory analysis)(Linux)
 
 # Run Project
 * Username:pass

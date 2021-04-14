@@ -32,7 +32,14 @@ coverage:$(SRC)
 		gcc -fprofile-arcs -ftest-coverage Main.c -I -c $(DO_IT) -o $(COVERAGE_NAME).$(EXEC)
 		./$(COVERAGE_NAME).$(EXEC)
 		gcov -a Main.c
-		$(editor) Main.c.gcov	
+		$(editor) Main.c.gcov
+
+cppcheck:
+		cppcheck implementation
+		
+valgrind:
+		make run -C implementation/
+        valgrind ./implementation/Train_Ticket_Booking_System.out
 clean:
 	$(RM) *.$(EXEC)
 	$(RM) *.gcn
